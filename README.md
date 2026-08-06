@@ -2,9 +2,6 @@
 
 Welcome to my personal portfolio repository! This portfolio showcases my journey as an aspiring **Data Analyst**, **Data Engineer**, and **Software Engineer**, highlighting my technical skills, projects, certifications, and professional experience.
 
-## 🔗 Live Portfolio
-
-> Coming Soon
 
 ## 📖 About
 
@@ -58,7 +55,7 @@ portfolio/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mayuri-portfolio.git
+git clone https://github.com/tmayurimayuri78-dot/mayuri-portfolio.git
 ```
 
 2. Open the project folder.
@@ -91,11 +88,11 @@ Or use the **Live Server** extension in Visual Studio Code for the best developm
 
 **Mayuri T**
 
-📧 Email: your-email@example.com
+📧 Email: tmayurimayuri78@gmail.com
 
-💼 LinkedIn: https://linkedin.com/in/YOUR_USERNAME
+💼 LinkedIn:  https://www.linkedin.com/in/mayuri-t-24a691399/
 
-🐙 GitHub: https://github.com/YOUR_USERNAME
+🐙 GitHub:   https://github.com/tmayurimayuri78-dot/
 
 ## ⭐ Support
 
