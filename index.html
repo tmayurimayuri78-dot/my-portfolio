@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mayuri T — Data Analyst &amp; Full Stack Developer</title>
+<meta name="description" content="Portfolio of Mayuri T, an Information Technology student specializing in Data Analytics, SQL, Power BI and Full Stack Development. B.Tech IT, Erode Sengunthar Engineering College.">
+<meta name="keywords" content="Mayuri T, Data Analyst Portfolio, Python, SQL, Power BI, Data Analytics Student, Full Stack Developer, Erode Sengunthar Engineering College">
+<meta property="og:title" content="Mayuri T — Data Analyst &amp; Full Stack Developer">
+<meta property="og:description" content="IT student building data-driven dashboards and full stack applications. Explore projects in SQL, Power BI, Python and React.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230B0F14%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%234FD1C5%22 font-family=%22monospace%22>M</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <span class="loader-mono">initializing_portfolio</span>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">MAYURI<span class="dot">.</span>T</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-small btn-primary">Let's talk</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas id="pipelineCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow mono">B.Tech Information Technology · Erode Sengunthar Engineering College</p>
+        <h1 class="hero-title">
+          Mayuri T builds <span class="type-target" id="typeTarget"></span><span class="caret">|</span>
+        </h1>
+        <p class="hero-sub">
+          A final-year IT student who turns raw, messy data into dashboards people actually trust —
+          and ships the full stack applications those dashboards live in. Comfortable moving between
+          a SQL query, a Power BI report, and a React component in the same afternoon.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/Mayuri_Resume.pdf" class="btn btn-ghost" id="resumeBtn" download>Download Résumé</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num mono">8.87</span><span class="stat-label">CGPA / 10</span></div>
+          <div class="stat"><span class="stat-num mono">4</span><span class="stat-label">Projects shipped</span></div>
+          <div class="stat"><span class="stat-num mono">5,000+</span><span class="stat-label">Records analyzed</span></div>
+          <div class="stat"><span class="stat-num mono">1</span><span class="stat-label">Analytics internship</span></div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring"></div>
+        <img src="assets/mayuri.jpg" alt="Portrait of Mayuri T" class="hero-photo" width="420" height="420">
+        <div class="hero-photo-tag mono">status: open_to_work</div>
+      </div>
+    </div>
+    <div class="scroll-hint mono" aria-hidden="true">scroll<span>↓</span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="section-head">
+        <p class="eyebrow mono">01 / About</p>
+        <h2>Curious about data, stubborn about shipping it.</h2>
+      </div>
+      <div class="about-body">
+        <p>
+          I'm an Information Technology undergraduate at Erode Sengunthar Engineering College, currently in my
+          final year and holding an <strong>8.87 CGPA</strong>. My interest in tech didn't start with a single
+          "aha" moment — it built up gradually, one messy spreadsheet and one broken SQL query at a time, until
+          I realized what I actually enjoy is the middle step: taking data nobody wants to look at and turning
+          it into something a manager can read in ten seconds.
+        </p>
+        <p>
+          That pulled me toward analytics — Python, SQL, Power BI, Excel — and a one-month <strong>Data Analytics
+          internship at Codec Technologies</strong>, where I cleaned and analyzed datasets with 5,000+ records and
+          helped turn them into structured reports. But I didn't want to stop at analysis. I wanted to build the
+          systems that produce and serve that data too, which is why I've spent equal time on the other side of
+          the stack: MySQL schemas, REST APIs, and React interfaces, most recently as part of a team building a
+          full-stack campus ERP system on Supabase.
+        </p>
+        <p>
+          I like problems with a clear before-and-after — a cluttered dataset that becomes a clean dashboard, a
+          manual process that becomes an automated one. Outside of coursework, I'm usually deep in a personal
+          project, a certification, or figuring out why a pivot table isn't doing what I told it to.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY / PIPELINE -->
+  <section class="section section-alt" id="journey">
+    <div class="section-inner">
+      <div class="section-head center">
+        <p class="eyebrow mono">02 / Journey</p>
+        <h2>How the pipeline got built</h2>
+        <p class="section-desc">Not a straight line — more like a real data pipeline: ingest, clean, transform, serve.</p>
+      </div>
+      <div class="pipeline" id="pipeline">
+        <div class="pipeline-track" aria-hidden="true"></div>
+
+        <div class="pipe-node">
+          <div class="pipe-dot"></div>
+          <span class="pipe-stage mono">INGEST</span>
+          <h3>Higher Secondary</h3>
+          <p class="pipe-org">Govt. Model Girls Higher Secondary School, Namakkal</p>
+          <p class="pipe-detail">Completed schooling with 82%, 2023 — the raw input.</p>
+        </div>
+
+        <div class="pipe-node">
+          <div class="pipe-dot"></div>
+          <span class="pipe-stage mono">TRANSFORM</span>
+          <h3>B.Tech, Information Technology</h3>
+          <p class="pipe-org">Erode Sengunthar Engineering College · 2023 – 2027</p>
+          <p class="pipe-detail">Currently in progress, CGPA 8.87/10 through 5th semester. Core in DBMS, OOP, and DSA fundamentals.</p>
+        </div>
+
+        <div class="pipe-node">
+          <div class="pipe-dot"></div>
+          <span class="pipe-stage mono">VALIDATE</span>
+          <h3>Data Analytics Intern</h3>
+          <p class="pipe-org">Codec Technologies (Remote) · 1 month</p>
+          <p class="pipe-detail">Cleaned and analyzed 5,000+ records with Excel, Python and Power BI; produced insight reports for performance analysis.</p>
+        </div>
+
+        <div class="pipe-node">
+          <div class="pipe-dot"></div>
+          <span class="pipe-stage mono">SERVE</span>
+          <h3>Four shipped projects</h3>
+          <p class="pipe-org">Analytics dashboards + full stack applications</p>
+          <p class="pipe-detail">From Excel-based recruitment dashboards to a full-stack Supabase-powered campus ERP — see below.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <div class="section-head center">
+        <p class="eyebrow mono">03 / Skills</p>
+        <h2>Toolkit</h2>
+        <p class="section-desc">What I reach for when there's a dataset to tame or an app to build.</p>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data Analytics</h3>
+          <div class="tags">
+            <span class="tag">Excel (Pivot Tables/Charts)</span><span class="tag">Power BI</span>
+            <span class="tag">Pandas</span><span class="tag">NumPy</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Web Technologies</h3>
+          <div class="tags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">React.js</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="tags">
+            <span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Supabase</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="tags">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Foundations</h3>
+          <div class="tags">
+            <span class="tag">DBMS</span><span class="tag">OOP</span><span class="tag">DSA Basics</span>
+          </div>
+        </div>
+
+        <div class="skill-card skill-card-wide">
+          <h3>Working style</h3>
+          <div class="tags">
+            <span class="tag tag-soft">Problem-solving</span><span class="tag tag-soft">Attention to detail</span>
+            <span class="tag tag-soft">Clear communication</span><span class="tag tag-soft">Collaborative</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <div class="section-head center">
+        <p class="eyebrow mono">04 / Projects</p>
+        <h2>Selected work</h2>
+        <p class="section-desc">Four real projects — from an Excel-only dashboard to a full-stack app.</p>
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="analytics">Analytics</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="database">Database</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card" data-tags="analytics">
+          <div class="project-visual" data-icon="dashboard">
+            <svg viewBox="0 0 200 140" class="project-svg"><rect x="10" y="70" width="24" height="50" fill="var(--accent)"/><rect x="46" y="40" width="24" height="80" fill="var(--accent-2)"/><rect x="82" y="90" width="24" height="30" fill="var(--accent)"/><rect x="118" y="20" width="24" height="100" fill="var(--accent-2)"/><circle cx="165" cy="45" r="26" fill="none" stroke="var(--accent)" stroke-width="8" stroke-dasharray="120 43"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Recruitment Analytics Dashboard</h3>
+              <span class="project-role mono">Data Analyst</span>
+            </div>
+            <p class="project-desc">
+              An interactive recruitment dashboard built entirely in Excel — designed for HR teams who live in
+              spreadsheets and need answers, not a new tool to learn.
+            </p>
+            <p class="project-detail">
+              Built Pivot Tables and Pivot Charts analyzing candidate selection, rejection, college-wise
+              recruitment, job-role distribution, and aptitude performance. Designed KPI cards for Total
+              Candidates, Selected, Rejected, and Selection Rate, with interactive slicers for dynamic filtering.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">SQL</span><span class="tech-badge">Excel</span>
+              <span class="tech-badge">Pivot Tables</span><span class="tech-badge">Slicers</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="fullstack">
+          <div class="project-visual" data-icon="wallet">
+            <svg viewBox="0 0 200 140" class="project-svg"><rect x="20" y="40" width="160" height="70" rx="10" fill="none" stroke="var(--accent)" stroke-width="6"/><rect x="130" y="65" width="45" height="26" rx="6" fill="var(--accent-2)"/><circle cx="152" cy="78" r="4" fill="var(--bg)"/><line x1="20" y1="60" x2="180" y2="60" stroke="var(--accent)" stroke-width="4"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Expense Tracker System</h3>
+              <span class="project-role mono">Full Stack Developer</span>
+            </div>
+            <p class="project-desc">
+              A responsive web app for tracking daily spending, built to answer one question fast: where did the
+              money actually go this month?
+            </p>
+            <p class="project-detail">
+              Integrated a MySQL database for secure storage and retrieval of transactions, and wrote SQL queries
+              to generate monthly and category-wise expense reports on demand.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">HTML</span><span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span><span class="tech-badge">MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="database">
+          <div class="project-visual" data-icon="books">
+            <svg viewBox="0 0 200 140" class="project-svg"><rect x="30" y="30" width="30" height="90" fill="var(--accent)"/><rect x="68" y="45" width="30" height="75" fill="var(--accent-2)"/><rect x="106" y="20" width="30" height="100" fill="var(--accent)"/><rect x="144" y="55" width="30" height="65" fill="var(--accent-2)"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Library Management System</h3>
+              <span class="project-role mono">Backend / Database</span>
+            </div>
+            <p class="project-desc">
+              A database-driven system built to replace manual register-keeping with structured, queryable
+              records.
+            </p>
+            <p class="project-detail">
+              Implemented SQL queries for issuing, returning, and tracking books, with a schema designed to keep
+              borrower history and inventory in sync and easy to audit.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span><span class="tech-badge">MySQL</span><span class="tech-badge">SQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="fullstack">
+          <div class="project-visual" data-icon="erp">
+            <svg viewBox="0 0 200 140" class="project-svg"><rect x="15" y="20" width="80" height="55" rx="6" fill="none" stroke="var(--accent)" stroke-width="5"/><rect x="105" y="20" width="80" height="55" rx="6" fill="none" stroke="var(--accent-2)" stroke-width="5"/><rect x="15" y="85" width="170" height="35" rx="6" fill="none" stroke="var(--accent)" stroke-width="5"/><circle cx="55" cy="47" r="10" fill="var(--accent)"/><circle cx="145" cy="47" r="10" fill="var(--accent-2)"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>MyCampus ERP System</h3>
+              <span class="project-role mono">Full Stack Developer</span>
+            </div>
+            <p class="project-desc">
+              A full-stack campus ERP for managing academic and administrative activities, built collaboratively
+              as part of a small team.
+            </p>
+            <p class="project-detail">
+              Built responsive UI components in React and integrated Supabase for authentication, database
+              operations, and real-time data handling, focusing on clean frontend-backend communication.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">React.js</span><span class="tech-badge">Supabase</span>
+              <span class="tech-badge">SQL</span><span class="tech-badge">JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="section-inner">
+      <div class="section-head center">
+        <p class="eyebrow mono">05 / Certifications</p>
+        <h2>Credentials</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <span class="cert-mark mono">NPTEL</span>
+          <h3>Python for Data Science</h3>
+          <p>Elite certification</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-mark mono">Infosys Springboard</span>
+          <h3>Python Programming</h3>
+        </div>
+        <div class="cert-card">
+          <span class="cert-mark mono">Infosys Springboard</span>
+          <h3>HTML5 &amp; CSS3</h3>
+        </div>
+        <div class="cert-card">
+          <span class="cert-mark mono">Alison</span>
+          <h3>Beginners of SQL</h3>
+        </div>
+      </div>
+
+      <div class="lang-row">
+        <span class="lang-label mono">Languages —</span>
+        <span class="tag tag-soft">English (Professional)</span>
+        <span class="tag tag-soft">Tamil (Native)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="section-head">
+        <p class="eyebrow mono">06 / Contact</p>
+        <h2>Let's build something with your data.</h2>
+        <p class="section-desc">
+          Open to Data Analyst, Data Engineering, and Full Stack Development internships and opportunities.
+        </p>
+        <div class="contact-list">
+          <a href="mailto:tmayurimayuri78@gmail.com" class="contact-item">
+            <span class="contact-label mono">EMAIL</span> tmayurimayuri78@gmail.com
+          </a>
+          <a href="tel:+918807872139" class="contact-item">
+            <span class="contact-label mono">PHONE</span> +91 88078 72139
+          </a>
+          <span class="contact-item">
+            <span class="contact-label mono">BASED IN</span> Namakkal, Tamil Nadu, India
+          </span>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/mayuri-t-24a691399/" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+          <a href="https://github.com/tmayurimayuri78-dot/" class="social-link" aria-label="GitHub">GitHub</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label class="field">
+          <span>Name</span>
+          <input type="text" name="name" required autocomplete="name">
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-full">Send message</button>
+        <p class="form-note mono" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="mono">© <span id="year"></span> Mayuri T</span>
+    <span class="mono footer-note">Built with HTML, CSS &amp; vanilla JS</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
