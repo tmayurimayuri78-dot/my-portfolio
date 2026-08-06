@@ -1,40 +1,106 @@
-# Mayuri T — Portfolio
+# 🌐 Mayuri T | Personal Portfolio
 
-A single-page portfolio built with plain **HTML, CSS, and vanilla JavaScript** — no build step, no npm install required.
+Welcome to my personal portfolio repository! This portfolio showcases my journey as an aspiring **Data Analyst**, **Data Engineer**, and **Software Engineer**, highlighting my technical skills, projects, certifications, and professional experience.
 
-## Run it in VS Code
+## 🔗 Live Portfolio
 
-1. Unzip/open this `portfolio` folder in VS Code.
-2. Install the **Live Server** extension (by Ritwick Dey) if you don't have it.
-3. Right-click `index.html` → **Open with Live Server**.
-   - Or just double-click `index.html` to open it directly in a browser (some effects like the canvas background still work fine).
+> Coming Soon
 
-## Structure
+## 📖 About
+
+This portfolio is designed to provide an overview of my academic background, technical expertise, and project experience. It reflects my passion for building data-driven solutions, creating responsive web applications, and continuously learning modern technologies.
+
+## ✨ Features
+
+- Responsive Design
+- Modern User Interface
+- Dark & Light Theme
+- Smooth Animations
+- Interactive Project Showcase
+- Skills & Certifications
+- Resume Download
+- Contact Section
+- Mobile Friendly
+
+## 🚀 Featured Project
+
+### Resume Analyzer Dashboard
+
+A comprehensive dashboard that analyzes resumes, extracts key information, evaluates ATS compatibility, identifies missing skills, and presents actionable insights through interactive visualizations.
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+**Tools**
+- Git
+- GitHub
+- VS Code
+
+## 📂 Project Structure
 
 ```
 portfolio/
-├── index.html      # all content/sections
-├── style.css        # design system: colors, type, layout, animations
-├── script.js         # typing effect, scroll reveals, filters, canvas bg, theme toggle
-└── assets/
-    ├── mayuri.jpg          # your photo
-    └── Mayuri_Resume.pdf   # your résumé (linked to the "Download Résumé" button)
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│   ├── images/
+│   ├── icons/
+│   └── resume.pdf
 ```
 
-## What's real vs. what to double-check
+## 💻 Running Locally
 
-Everything in this site is pulled directly from your resume — CGPA, internship, all 4 projects, certifications, and skills. Nothing was invented. Before you publish it:
+1. Clone the repository
 
-- **Update LinkedIn/GitHub links** — currently placeholder `#` links in the Contact section (search for `class="social-link"` in `index.html`).
-- **Contact form** — it's front-end only right now (it just shows a confirmation message). To actually receive messages, wire it to a service like Formspree, EmailJS, or a small backend/Supabase function.
-- **Project visuals** — each project card uses a simple generated SVG icon instead of a screenshot. Swap in real screenshots of your Excel dashboard, the Expense Tracker UI, etc. for more impact — replace the `.project-visual` block in `index.html` with an `<img>` tag.
+```bash
+git clone https://github.com/YOUR_USERNAME/mayuri-portfolio.git
+```
 
-## Customizing
+2. Open the project folder.
 
-- **Colors/fonts**: edit the `:root` variables at the top of `style.css`.
-- **Typing animation phrases**: edit the `roles` array in `script.js`.
-- **Add a project**: copy one `<article class="project-card" data-tags="...">` block in `index.html` and edit the text/tags.
+3. Launch `index.html` in your browser.
 
-## Deploying
+Or use the **Live Server** extension in Visual Studio Code for the best development experience.
 
-Free and simple: drag the `portfolio` folder into [Netlify Drop](https://app.netlify.com/drop), or push it to a GitHub repo and enable **GitHub Pages** in the repo settings.
+## 📸 Portfolio Sections
+
+- Home
+- About
+- Education
+- Skills
+- Projects
+- Certifications
+- Experience
+- Contact
+
+## 🎯 Future Enhancements
+
+- Portfolio Analytics
+- Blog Section
+- Project Filtering
+- Backend Contact Form
+- Performance Optimization
+- Accessibility Improvements
+
+## 📬 Contact
+
+**Mayuri T**
+
+📧 Email: your-email@example.com
+
+💼 LinkedIn: https://linkedin.com/in/YOUR_USERNAME
+
+🐙 GitHub: https://github.com/YOUR_USERNAME
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub. It motivates me to build and share more exciting projects.
+
+---
+
+Made with ❤️ by **Mayuri T**
